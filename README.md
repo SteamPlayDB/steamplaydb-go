@@ -1,4 +1,4 @@
-#SteamPlayDB.com Go
+# SteamPlayDB.com Go
 
 *Runs backround server application for SteamPlayDB.com*
 
@@ -19,10 +19,10 @@
 # Server Enviroment Variables
 *Context of variables to set in the system (docker container) or .env file.*
 
-`PUBLIC_DIR` = Directory of static files. *Default:* public
-`INDEX_FILE` = File to load if no file is indicated. *Default:* index.html
-`AUTOCERT_CACHE` = Directory of auto certificates to load for the server.
-`PORT` = Port to run the server on. *Default:* 80
+- `PUBLIC_DIR` = Directory of static files. *Default:* public
+- `INDEX_FILE` = File to load if no file is indicated. *Default:* index.html
+- `AUTOCERT_CACHE` = Directory of auto certificates to load for the server.
+- `PORT` = Port to run the server on. *Default:* 80
 
 # F.A.Q
 
