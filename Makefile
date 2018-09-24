@@ -24,6 +24,7 @@ production:
 setup:
 	go get -u github.com/labstack/echo/...
 	go get -u github.com/joho/godotenv
+	go get -u github.com/bxcodec/faker
 
 clean:
 	rm -rf $(OUTPUT_PATH)

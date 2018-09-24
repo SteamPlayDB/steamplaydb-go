@@ -1,6 +1,7 @@
 package main
 
 import (
+	"./Controllers"
 	"./Utils"
 	"github.com/joho/godotenv"
 	"github.com/labstack/echo"
@@ -19,6 +20,7 @@ var (
 
 func setupRoutes(e *echo.Echo) {
 	e.Static("/", publicDir)
+	e.GET("/api/games", Controllers.Games)
 }
 
 func customHTTPErrorHandler(err error, c echo.Context) {
